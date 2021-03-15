@@ -36,7 +36,7 @@
         <main>
             <div class="container">
                 <ul class="collapsible">
-                    <li class="active">
+                    <li>
                         <div class="collapsible-header">Data Source and Description</div>
                         <div class="collapsible-body">
                             <p>
@@ -55,9 +55,17 @@
                                 In the data exploration section we are showing histogram containing the count of total number of parks for
                                 each activity and topic statewise.
                             </p>
+                            <p>
+                                Below are the api end-points we have used.
+                            </p>
+                            <b>GET/</b> https://developer.nps.gov/api/v1/parks <br>
+                            <b>GET/</b> https://developer.nps.gov/api/v1/topics <br>
+                            <b>GET/</b> https://developer.nps.gov/api/v1/topics/parks <br>
+                            <b>GET/</b> https://developer.nps.gov/api/v1/activities <br>
+                            <b>GET/</b> https://developer.nps.gov/api/v1/activities/parks <br>
                         </div>
                     </li>
-                    <li>
+                    <li class="active">
                         <div class="collapsible-header">Data Model</div>
                         <div class="collapsible-body">
                             <img id="modelimg" src="img/datamodel.png">
